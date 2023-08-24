@@ -27,7 +27,6 @@ async function getTicket(id) {
 }
 
 async function TicketDetails({params}) {
-    console.log("params", params)
     const {id} = params;
     const ticket = await getTicket(id);
   return (

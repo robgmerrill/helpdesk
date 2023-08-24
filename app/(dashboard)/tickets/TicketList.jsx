@@ -18,7 +18,6 @@ async function TicketList() {
 
   // fetch data
     const tickets = await getTickets();
-    console.log(tickets)
 
   return (
     <>
